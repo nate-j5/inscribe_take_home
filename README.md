@@ -14,19 +14,13 @@ Note: You'll need `Python 3.6` or higher installed on your machine.
 git clone https://github.com/nate-j5/inscribe_take_home.git
 ```
 
-#### 2. Navigate to Project Directory
+#### 2. Create Virtual Environment
 
 ```bash
-cd inscribe_take_home/app
+python3 -m venv venv
 ```
 
-#### 3. Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-#### 4. Activate Virtual Environment
+#### 3. Activate Virtual Environment
 
 On macOS/Linux:
 ```bash
@@ -38,7 +32,7 @@ On Windows:
 venv\Scripts\activate
 ```
 
-#### 5. Install Dependencies
+#### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -49,7 +43,7 @@ pip install -r requirements.txt
 Run the application:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 The script will:
@@ -86,9 +80,6 @@ The project includes unit tests that cover:
 Run the test suite:
 
 ```bash
-# Run all tests
-pytest test_main.py
-
 # Run tests with verbose output
 pytest -v test_main.py
 ```
@@ -106,9 +97,9 @@ test_main.py::TestRickAndMortyAPI::test_write_to_csv PASSED                     
 ```
 
 ## Implementation Details
-- Fetches Rick and Morty characters from the API (with pagination support)
-- Outputs data to a clean, structured CSV 
-- Implements error handling and logging
+- Fetch characters from the API (with pagination support)
+- Output data to a clean, structured CSV 
+- Implement error handling and logging
 - Includes unit tests for data processing and CSV generation
 
 
