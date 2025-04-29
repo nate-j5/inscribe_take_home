@@ -1,7 +1,5 @@
 # Part 1 - Take-Home Project | Rick and Morty API Data Extractor
 
-Hello, Inscribe Team!
-
 Thank you for reviewing my project. Below are the instructions for running my project locally.
 
 Note: You'll need `Python 3.6` or higher installed on your machine. 
