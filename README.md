@@ -1,6 +1,6 @@
 # Part 1 - Take-Home Project | Rick and Morty API Data Extractor
 
-Hello, Inscribe team!
+Hello, Inscribe Team!
 
 Thank you for reviewing my project. Below are the instructions for running my project locally.
 
